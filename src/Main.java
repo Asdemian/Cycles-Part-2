@@ -29,8 +29,17 @@ public class Main {
         int mortalityPerYear = countryY / 1000 * 8;
         int populationGrowthPerYear = birthRatePerYear - mortalityPerYear;
         for (i = 1; i <= 10; i++) {
-            System.out.println("Год " +i+ " , численность населения составляет " +countryY);
+            System.out.println("Год " + i + " , численность населения составляет " + countryY);
             countryY = countryY + populationGrowthPerYear;
         }
+        //task 2-1
+        int cashDeposit1 = 15000;
+        int total = cashDeposit1;
+        for (i = 1; total < 12_000_000; i++) {
+            System.out.println("Месяц " + i + " накопления составили " + total);
+            int percent1 = total / 100 * 7;
+            total = total + percent1;
+        }
+        System.out.println("Для накопления 12 миллионов потребуется " + i + " месяцев");
     }
 }
