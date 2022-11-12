@@ -22,5 +22,15 @@ public class Main {
         for (int m = 10; m >= 1; m--) {
             System.out.print(m + " ");
         }
+        //task3
+        System.out.println(" ");
+        int countryY = 12_000_000;
+        int birthRatePerYear = countryY / 1000 * 17;
+        int mortalityPerYear = countryY / 1000 * 8;
+        int populationGrowthPerYear = birthRatePerYear - mortalityPerYear;
+        for (i = 1; i <= 10; i++) {
+            System.out.println("Год " +i+ " , численность населения составляет " +countryY);
+            countryY = countryY + populationGrowthPerYear;
+        }
     }
 }
