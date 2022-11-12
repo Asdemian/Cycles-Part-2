@@ -12,5 +12,15 @@ public class Main {
             accumulation = accumulation + percent;
             month++;
         }
+        //task2
+        int i = 1;
+        while (i <= 10) {
+            System.out.print(i + " ");
+            i++;
+        }
+        System.out.println(" ");
+        for (int m = 10; m >= 1; m--) {
+            System.out.print(m + " ");
+        }
     }
 }
