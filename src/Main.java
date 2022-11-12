@@ -79,9 +79,15 @@ public class Main {
             }
         }
         for (; futureServiceStations >= 2022; futureServiceStations--) {
-            if (futureServiceStations % 79 ==0) {
+            if (futureServiceStations % 79 == 0) {
                 System.out.println(futureServiceStations);
             }
+        }
+        //task 3-2
+        int o = 2;
+        for (int n = 1; n <=10; n++) {
+            int r = o * n;
+            System.out.println(o+ "*" +n+ "=" +r);
         }
     }
 }
