@@ -69,5 +69,19 @@ public class Main {
         for (; fridayTheFirst <= 31; fridayTheFirst = fridayTheFirst + 7) {
             System.out.println("Сегодня пятница, " + fridayTheFirst + "-е число. Необходимо подготовить отчет.");
         }
+        //task 3-1
+        int cometArrival = 79;
+        int theLastTwoHundred = 2022 - 200;
+        int futureServiceStations = 2022 + 100;
+        for (; theLastTwoHundred <= 2022; theLastTwoHundred++) {
+            if (theLastTwoHundred % 79 == 0) {
+                System.out.println(theLastTwoHundred);
+            }
+        }
+        for (; futureServiceStations >= 2022; futureServiceStations--) {
+            if (futureServiceStations % 79 ==0) {
+                System.out.println(futureServiceStations);
+            }
+        }
     }
 }
