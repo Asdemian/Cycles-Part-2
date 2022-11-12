@@ -63,6 +63,11 @@ public class Main {
             int perceent = totaal / 100 * 7;
             totaal = totaal + perceent;
         }
-        System.out.println("Накопления Василия за 9 лет составят " +totaal);
+        System.out.println("Накопления Василия за 9 лет составят " + totaal);
+        //task 2-4
+        int fridayTheFirst = 4;
+        for (; fridayTheFirst <= 31; fridayTheFirst = fridayTheFirst + 7) {
+            System.out.println("Сегодня пятница, " + fridayTheFirst + "-е число. Необходимо подготовить отчет.");
+        }
     }
 }
