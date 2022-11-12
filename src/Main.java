@@ -45,12 +45,24 @@ public class Main {
         int cashDeposit2 = 15000;
         int total1 = cashDeposit2;
         for (i = 1; total1 < 12_000_000; i++) {
-            if (i % 6 ==0) {
+            if (i % 6 == 0) {
                 System.out.println("Месяц " + i + " накопления составили " + total1);
             }
             int percent2 = total1 / 100 * 7;
             total1 = total1 + percent2;
         }
         System.out.println("Для накопления 12 миллионов потребуется " + i + " месяцев");
+        //task 2-3
+        int deposit = 15000;
+        int accumulationTime = 9 * 12;
+        int totaal = deposit;
+        for (i = 1; i <= accumulationTime; i++) {
+            if (i % 6 == 0) {
+                System.out.println("Месяц " + i + " накопления составили " + totaal);
+            }
+            int perceent = totaal / 100 * 7;
+            totaal = totaal + perceent;
+        }
+        System.out.println("Накопления Василия за 9 лет составят " +totaal);
     }
 }
