@@ -27,9 +27,10 @@ public class Main {
         int countryY = 12_000_000;
         int birthRatePerYear = countryY / 1000 * 17;
         int mortalityPerYear = countryY / 1000 * 8;
-        int populationGrowthPerYear = birthRatePerYear - mortalityPerYear;
+        int populationGrowthPerYear = 0;
         for (i = 1; i <= 10; i++) {
             System.out.println("Год " + i + " , численность населения составляет " + countryY);
+            populationGrowthPerYear = birthRatePerYear - mortalityPerYear;
             countryY = countryY + populationGrowthPerYear;
         }
         //task 2-1
