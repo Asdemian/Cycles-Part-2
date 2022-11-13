@@ -22,7 +22,7 @@ public class Main {
         for (int m = 10; m >= 1; m--) {
             System.out.print(m + " ");
         }
-        //task3
+        //task1-3
         System.out.println(" ");
         int countryY = 12_000_000;
         int populationGrowthPerYear = 0;
